@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+    text-align: center;
+}
+.result{
+background-color: pink;
+padding: 20px;
+border: 1px solid palevioletred;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.1);
+width: 300px;
+}
