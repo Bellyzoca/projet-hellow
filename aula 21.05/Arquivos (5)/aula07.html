@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabela</h2>
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="2" style="background-color:beige;">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <td>Maria</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefone</th>
+            <td>9955-1234</td>
+        </tr>
+        <tr>
+            <td>9955-8745</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

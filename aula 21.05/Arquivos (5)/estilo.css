@@ -1,0 +1,13 @@
+p {
+    color: black;
+    background-color: beige;
+    font-family: serif;
+    font-size: 160%;
+}
+
+h1 {
+    color: black;
+    background-color: rgb(244, 255, 85);
+    font-family: serif;
+    font-size: 200%;
+}
